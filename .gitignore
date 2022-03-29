@@ -15,10 +15,3 @@
 .DS_Store
 .prettierignore
 
-.sass-cache
-design
-style-guide.md
-README-template.md
-.txt
-CSS/main.css.map
-SASS
