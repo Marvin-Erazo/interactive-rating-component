@@ -136,4 +136,10 @@ main {
   font-size: 0.9rem;
 }
 
+@media screen and (min-width: 375px) {
+  .rate-card, .modal {
+    width: 337.5px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
