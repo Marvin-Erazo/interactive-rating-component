@@ -15,7 +15,7 @@ main {
   font-family: "Overpass", sans-serif;
 }
 
-.rate-card {
+.rate-card, .modal {
   background-color: #252d37;
   width: 90%;
   border-radius: 15px;
@@ -106,6 +106,34 @@ main {
 .rate-btn:hover {
   background-color: #7c8798;
   color: white;
+}
+
+.rate {
+  background-color: #353a40;
+  padding: 5px 10px;
+  margin: 20px 0;
+  color: #fb7413;
+  font-size: 0.8rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.modal {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.modal h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+.modal .thanks {
+  text-align: center;
+  color: #7c8798;
+  font-size: 0.9rem;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -19,7 +19,7 @@ main{
   font-family: $font;
 }
 
-.rate-card /*.modal*/{
+.rate-card , .modal{
   background-color: $Dark-Blue;
   //ONLYFORDEVICES<375pxwidth:;
   width: 90%;
@@ -34,3 +34,4 @@ main{
 }
 
 @import "rate-card";
+@import "modal";
