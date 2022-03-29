@@ -1,0 +1,36 @@
+//MOBILE FIRST
+//ALL COMPONENT IS USED IN ALL RESOLITIONS
+
+@import "variables";
+//GLOBAL RULES
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  background-color: $Very-Dark-Blue;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: $font;
+}
+
+.rate-card /*.modal*/{
+  background-color: $Dark-Blue;
+  //ONLYFORDEVICES<375pxwidth:;
+  width: 90%;
+
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+
+  padding: 20px;
+}
+
+@import "rate-card";

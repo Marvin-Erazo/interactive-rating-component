@@ -1,3 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+main {
+  background-color: #121417;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Overpass", sans-serif;
+}
+
+.rate-card {
+  background-color: #252d37;
+  width: 90%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  padding: 20px;
+}
+
+.rate-card img {
+  background-color: #353a40;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  padding: 10px;
+}
+.rate-card h1 {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.rate-card p {
+  color: #959eac;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.rate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rate-form button {
+  width: 100%;
+  letter-spacing: 2px;
+  background-color: #fb7413;
+  color: white;
+  font-weight: 400;
+  padding: 10px 0;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+}
+.rate-form button:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+.rate-num {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 20px;
+  margin-bottom: 1.5rem;
+}
+.rate-num input {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+}
+
+.rate-btn {
+  background-color: #353a40;
+  color: #959eac;
+}
+
+.selected {
+  background-color: #fb7413;
+  color: white;
+}
+
+.rate-btn:hover {
+  background-color: #7c8798;
+  color: white;
+}
 
 /*# sourceMappingURL=main.css.map */
